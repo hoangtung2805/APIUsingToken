@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  apiusingtoken:
+    image: ${DOCKER_REGISTRY-}apiusingtoken
+    build:
+      context: .
+      dockerfile: Dockerfile
