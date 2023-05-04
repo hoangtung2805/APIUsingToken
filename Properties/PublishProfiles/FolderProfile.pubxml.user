@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>D:\Work\Edmicro\APIUsingToken\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2023-04-24T03:13:24.5479867Z;True|2023-04-24T10:01:48.1960018+07:00;</History>
+    <_PublishTargetUrl>D:\Work\Edmicro\APIUsingToken-git\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>False|2023-05-04T04:35:53.2331692Z;False|2023-05-04T11:35:34.1292979+07:00;False|2023-05-04T11:33:09.8717993+07:00;True|2023-05-04T11:20:18.3487361+07:00;False|2023-05-04T11:17:03.5758247+07:00;True|2023-05-04T11:08:45.8765732+07:00;False|2023-05-04T11:07:40.7789153+07:00;True|2023-04-26T09:51:19.2910620+07:00;True|2023-04-24T11:22:29.6508112+07:00;True|2023-04-24T10:13:24.5479867+07:00;True|2023-04-24T10:01:48.1960018+07:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

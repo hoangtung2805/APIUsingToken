@@ -8,10 +8,11 @@ namespace APIUsingToken.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
+    [Authorize]
     public class HomeController
     {
-        [HttpGet("GetAllStudent"),Authorize]
+        [Authorize]
+        [HttpGet("GetAllStudent")]
         public async  Task<List<Student>> GetAllStudent()
         {
             var _context = new StudentContext();
@@ -29,7 +30,7 @@ namespace APIUsingToken.Controllers
         {
             var _context = new StudentContext();
             var existingStudent =  _context.Students.Where(x => x.StudentId == student.StudentId);
-            if(existingStudent != null)
+            if(existingStudent == null)
             {
                 throw new Exception("ko the trung ID");
             }
